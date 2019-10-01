@@ -4,9 +4,25 @@ namespace excercises_classes
 {
     class Katt
     {
-        public string namn;
-        public int ålder;
-        public string ras;
+        private string namn;
+        private int ålder;
+        private string ras;
+        
+        public string Namn
+        {
+            get;
+            set;
+        }
+        public int Ålder
+        {
+            get;
+            set;
+        }
+        public string Ras
+        {
+            get;
+            set;
+        }
 
         public void Bark()
         {

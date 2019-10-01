@@ -7,11 +7,11 @@ namespace excercises_classes
         static void Main(string[] args)
         {
             Katt minKatt = new Katt();
-            minKatt.namn = "Zelda";
-            minKatt.ålder = 1;
-            minKatt.ras = "sibirisk katt";
+            minKatt.Namn = "Zelda";
+            minKatt.Ålder = 1;
+            minKatt.Ras = "sibirisk katt";
 
-            Console.WriteLine("Min katt heter "+minKatt.namn+", hon är "+minKatt.ålder+" år gammal och hon är en "+minKatt.ras+".");
+            Console.WriteLine("Min katt heter "+minKatt.Namn+", hon är "+minKatt.Ålder+" år gammal och hon är en "+minKatt.Ras+".");
             minKatt.Bark();
             minKatt.Fetch();
         }
